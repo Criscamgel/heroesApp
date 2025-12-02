@@ -3,10 +3,6 @@ import { Link, useLocation } from "react-router"
 import { NavigationMenu, NavigationMenuList } from "../ui/navigation-menu"
 import { cn } from "@/lib/utils";
 
-interface Props {
-
-}
-
 export const CustomMenu = () => {
 
   const { pathname } = useLocation();
